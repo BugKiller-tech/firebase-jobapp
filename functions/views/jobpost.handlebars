@@ -1,0 +1,165 @@
+<script src="https://js.stripe.com/v3/"></script>
+<div class="container">
+
+    <!-- Card body -->
+    <div class="card-body">
+
+      <!-- Default form subscription -->
+
+      <p class="h4 text-center py-4">Post Job</p>
+
+
+      <form action="/formSubmission" method="post" id="payment-form">
+        <!-- Default input name -->
+        <label for="username" class="grey-text font-weight-light">Your Name</label>
+        <input type="text" id="username" class="form-control" name="username">
+
+        <br>
+
+        <label for="companyName" class="grey-text font-weight-light">Company Name</label>
+        <input type="text" id="companyName" class="form-control" name="companyName">
+
+        <br>
+
+        <!-- Default input email -->
+        <label for="email" class="grey-text font-weight-light">Your email</label>
+        <input type="email" id="email" class="form-control" name="email">
+
+        <br>
+
+        <label for="jobPosition" class="grey-text font-weight-light">Job Position</label>
+        <input type="text" id="jobPosition" class="form-control" name="jobPosition">
+
+        <br>
+
+        <label for="jobDescription" class="grey-text font-weight-light">Job Description</label>
+        <textarea type="text" id="jobDescription" class="form-control" rows="5" name="jobDescription"></textarea>
+
+        <br>
+
+        <label for="jobUrl" class="grey-text font-weight-light">Application URL (Where to apply)</label>
+        <input type="text" id="jobUrl" class="form-control" name="jobUrl">
+
+        <br>
+
+        <label for="card-element" class="grey-text font-weight-light">
+          Credit or debit card
+        </label>
+        <div id="card-element">
+          <!-- A Stripe Element will be inserted here. -->
+        </div>
+
+        <!-- Used to display form errors. -->
+        <div id="card-errors" role="alert"></div>
+
+
+
+
+
+
+
+
+        <div class="text-center py-4 mt-3">
+          <button class="btn" type="submit">Submit
+            <i class="fa fa-paper-plane-o ml-2"></i>
+          </button>
+        </div>
+        <!-- Default form subscription -->
+      </form>
+    </div>
+    <!-- Card body -->
+
+  </div>
+
+ <script>
+ (function(){
+     // Create a Stripe client.
+var stripe = Stripe('pk_test_HG5zLjoSzvucYBybwq3Ec36M');
+
+
+// Create an instance of Elements.
+var elements = stripe.elements();
+
+// Custom styling can be passed to options when creating an Element.
+// (Note that this demo uses a wider set of styles than the guide below.)
+var style = {
+  base: {
+    color: '#32325d',
+    lineHeight: '18px',
+    fontFamily: '"Sans serif", Helvetica, sans-serif',
+    fontSmoothing: 'antialiased',
+    fontSize: '16px',
+    '::placeholder': {
+      color: '#aab7c4'
+    }
+  },
+  invalid: {
+    color: '#fa755a',
+    iconColor: '#fa755a'
+  }
+};
+
+// Create an instance of the card Element.
+var card = elements.create('card', {style: style});
+
+// Add an instance of the card Element into the `card-element` <div>.
+card.mount('#card-element');
+
+// Handle real-time validation errors from the card Element.
+card.addEventListener('change', function(event) {
+  var displayError = document.getElementById('card-errors');
+  if (event.error) {
+    displayError.textContent = event.error.message;
+  } else {
+    displayError.textContent = '';
+  }
+});
+
+// Handle form submission.
+var form = document.getElementById('payment-form');
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  stripe.createToken(card).then(function(result) {
+    if (result.error) {
+      // Inform the user if there was an error.
+      var errorElement = document.getElementById('card-errors');
+      errorElement.textContent = result.error.message;
+    } else {
+      // Send the token to your server.
+      stripeTokenHandler(result.token);
+    }
+  });
+});
+
+function stripeTokenHandler(token) {
+  // Insert the token ID into the form so it gets submitted to the server
+  var form = document.getElementById('payment-form');
+  var hiddenInput = document.createElement('input');
+  hiddenInput.setAttribute('type', 'hidden');
+  hiddenInput.setAttribute('name', 'stripeToken');
+  hiddenInput.setAttribute('value', token.id);
+  form.appendChild(hiddenInput);
+
+
+
+
+
+
+
+  // Submit the form form.submit();
+  form.submit();
+
+
+
+
+
+
+}
+
+
+
+
+
+})();
+ </script>

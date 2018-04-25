@@ -1,0 +1,228 @@
+2018-04-25T18:26:34.929Z - info: User function triggered, starting execution
+2018-04-25T18:26:34.952Z - info: Execution took 23 ms, user function completed successfully
+2018-04-25T18:26:35.172Z - info: User function triggered, starting execution
+2018-04-25T18:26:35.175Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T18:26:36.992Z - info: User function triggered, starting execution
+2018-04-25T18:26:36.996Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T18:26:41.194Z - info: User function triggered, starting execution
+2018-04-25T18:26:41.196Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T18:26:42.428Z - info: User function triggered, starting execution
+2018-04-25T18:26:42.431Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T18:26:59.106Z - info: User function triggered, starting execution
+2018-04-25T18:26:59.108Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T18:27:00.002Z - info: User function triggered, starting execution
+2018-04-25T18:27:00.005Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T18:27:00.890Z - info: User function triggered, starting execution
+2018-04-25T18:27:00.894Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T18:27:02.102Z - info: User function triggered, starting execution
+2018-04-25T18:27:02.105Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T18:28:35.920Z - info: Worker for app closed due to file changes.
+2018-04-25T18:31:16.718Z - info: User function triggered, starting execution
+2018-04-25T18:31:16.735Z - info: Execution took 18 ms, user function completed successfully
+2018-04-25T18:31:53.130Z - info: Worker for app closed due to file changes.
+2018-04-25T18:31:59.531Z - info: User function triggered, starting execution
+2018-04-25T18:31:59.553Z - info: Execution took 22 ms, user function completed successfully
+2018-04-25T18:32:18.534Z - info: User function triggered, starting execution
+2018-04-25T18:32:18.553Z - info: Execution took 20 ms, user function completed successfully
+2018-04-25T18:32:21.377Z - info: User function triggered, starting execution
+2018-04-25T18:32:21.381Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T18:35:00.636Z - info: User function triggered, starting execution
+2018-04-25T18:35:00.655Z - info: Execution took 20 ms, user function completed successfully
+2018-04-25T18:35:09.748Z - info: User function triggered, starting execution
+2018-04-25T18:35:09.751Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T18:35:11.735Z - info: User function triggered, starting execution
+2018-04-25T18:35:11.739Z - info: Execution took 5 ms, user function completed successfully
+2018-04-25T18:35:17.400Z - info: User function triggered, starting execution
+2018-04-25T18:35:17.401Z - info: Execution took 0 ms, user function completed successfully
+2018-04-25T18:35:21.665Z - info: User function triggered, starting execution
+2018-04-25T18:35:21.668Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T18:36:44.179Z - info: User function triggered, starting execution
+2018-04-25T18:36:44.202Z - info: Execution took 23 ms, user function completed successfully
+2018-04-25T18:36:45.806Z - info: User function triggered, starting execution
+2018-04-25T18:36:45.811Z - info: Execution took 4 ms, user function completed successfully
+2018-04-25T18:36:49.207Z - info: User function triggered, starting execution
+2018-04-25T18:36:49.210Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T18:36:52.738Z - info: User function triggered, starting execution
+2018-04-25T18:36:52.743Z - info: Execution took 5 ms, user function completed successfully
+2018-04-25T18:36:59.206Z - info: User function triggered, starting execution
+2018-04-25T18:36:59.212Z - info: Execution took 6 ms, user function completed successfully
+2018-04-25T18:37:01.027Z - info: User function triggered, starting execution
+2018-04-25T18:37:01.030Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T18:37:18.765Z - info: User function triggered, starting execution
+2018-04-25T18:37:18.785Z - info: Execution took 19 ms, user function completed successfully
+2018-04-25T18:38:19.895Z - info: User function triggered, starting execution
+2018-04-25T18:38:19.915Z - info: Execution took 21 ms, user function completed successfully
+2018-04-25T18:38:51.637Z - info: User function triggered, starting execution
+2018-04-25T18:38:51.657Z - info: Execution took 20 ms, user function completed successfully
+2018-04-25T18:39:31.497Z - info: User function triggered, starting execution
+2018-04-25T18:39:31.517Z - info: Execution took 21 ms, user function completed successfully
+2018-04-25T18:40:50.779Z - info: User function triggered, starting execution
+2018-04-25T18:40:50.801Z - info: Execution took 22 ms, user function completed successfully
+2018-04-25T18:41:08.181Z - info: User function triggered, starting execution
+2018-04-25T18:41:08.200Z - info: Execution took 19 ms, user function completed successfully
+2018-04-25T18:42:31.559Z - info: User function triggered, starting execution
+2018-04-25T18:42:31.577Z - info: Execution took 19 ms, user function completed successfully
+2018-04-25T18:42:44.336Z - info: User function triggered, starting execution
+2018-04-25T18:42:44.355Z - info: Execution took 20 ms, user function completed successfully
+2018-04-25T18:43:16.602Z - info: User function triggered, starting execution
+2018-04-25T18:43:16.606Z - info: Execution took 4 ms, user function completed successfully
+2018-04-25T18:43:19.080Z - info: User function triggered, starting execution
+2018-04-25T18:43:19.083Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T18:49:56.271Z - info: User function triggered, starting execution
+2018-04-25T18:49:56.273Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T18:56:54.998Z - info: User function triggered, starting execution
+2018-04-25T18:56:55.017Z - info: Execution took 19 ms, user function completed successfully
+2018-04-25T19:01:04.379Z - info: User function triggered, starting execution
+2018-04-25T19:01:04.400Z - info: Execution took 22 ms, user function completed successfully
+2018-04-25T19:03:59.833Z - info: User function triggered, starting execution
+2018-04-25T19:03:59.852Z - info: Execution took 19 ms, user function completed successfully
+2018-04-25T19:04:31.656Z - info: User function triggered, starting execution
+2018-04-25T19:04:31.658Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T19:04:31.659Z - error: ReferenceError: token is not defined
+    at app.post (/Users/josh/TsunamiBlock/functions/index.js:34:13)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/josh/TsunamiBlock/functions/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+2018-04-25T19:04:40.591Z - info: User function triggered, starting execution
+2018-04-25T19:04:40.596Z - info: Execution took 4 ms, user function completed successfully
+2018-04-25T19:05:16.758Z - error: Function worker killed by signal: SIGTERM
+2018-04-25T19:05:51.794Z - info: User function triggered, starting execution
+2018-04-25T19:05:51.812Z - info: Execution took 18 ms, user function completed successfully
+2018-04-25T19:06:20.238Z - info: User function triggered, starting execution
+2018-04-25T19:06:20.241Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T19:06:20.241Z - error: TypeError: Cannot read property 'id' of undefined
+    at app.post (/Users/josh/TsunamiBlock/functions/index.js:34:32)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/josh/TsunamiBlock/functions/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+2018-04-25T19:12:15.027Z - error: Function worker killed by signal: SIGTERM
+2018-04-25T19:12:31.702Z - info: User function triggered, starting execution
+2018-04-25T19:12:31.721Z - info: Execution took 19 ms, user function completed successfully
+2018-04-25T19:12:33.969Z - info: User function triggered, starting execution
+2018-04-25T19:12:33.972Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T19:14:36.473Z - info: User function triggered, starting execution
+2018-04-25T19:15:36.465Z - info: Execution took 60004 ms, finished with status: 'timeout'
+2018-04-25T19:17:55.994Z - error: /Users/josh/TsunamiBlock/functions/index.js:35
+    response.redirect(303,'/303');
+            ^
+
+SyntaxError: Unexpected token .
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at process.on (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:76:28)
+2018-04-25T19:17:56.012Z - error: Function worker crashed with exit code: 1
+2018-04-25T19:17:57.602Z - error: /Users/josh/TsunamiBlock/functions/index.js:35
+    response.redirect(303,'/303');
+            ^
+
+SyntaxError: Unexpected token .
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at process.on (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:76:28)
+2018-04-25T19:17:57.627Z - error: Function worker crashed with exit code: 1
+2018-04-25T19:18:00.233Z - error: /Users/josh/TsunamiBlock/functions/index.js:35
+    response.redirect(303,'/303');
+            ^
+
+SyntaxError: Unexpected token .
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at process.on (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/supervisor/worker.js:76:28)
+2018-04-25T19:18:00.256Z - error: Function worker crashed with exit code: 1
+2018-04-25T19:20:43.681Z - info: User function triggered, starting execution
+2018-04-25T19:20:43.686Z - info: Execution took 6 ms, user function completed successfully
+2018-04-25T19:20:48.891Z - info: User function triggered, starting execution
+2018-04-25T19:20:48.907Z - info: Execution took 15 ms, user function completed successfully
+2018-04-25T19:20:50.520Z - info: User function triggered, starting execution
+2018-04-25T19:20:50.525Z - info: Execution took 4 ms, user function completed successfully
+2018-04-25T19:22:18.518Z - info: User function triggered, starting execution
+2018-04-25T19:22:18.524Z - info: Execution took 5 ms, user function completed successfully
+2018-04-25T19:22:18.524Z - error: ReferenceError: err is not defined
+    at app.post (/Users/josh/TsunamiBlock/functions/index.js:37:3)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/josh/TsunamiBlock/functions/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+2018-04-25T19:22:51.141Z - info: Worker for app closed due to file changes.
+2018-04-25T19:22:51.164Z - error: Function worker killed by signal: SIGTERM
+2018-04-25T19:23:10.029Z - info: User function triggered, starting execution
+2018-04-25T19:23:10.047Z - info: Execution took 17 ms, user function completed successfully
+2018-04-25T19:23:28.597Z - info: User function triggered, starting execution
+2018-04-25T19:23:28.612Z - info: Execution took 14 ms, user function completed successfully
+2018-04-25T19:23:28.621Z - info: User function triggered, starting execution
+2018-04-25T19:23:28.624Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T19:23:40.233Z - info: Worker for app closed due to file changes.
+2018-04-25T19:24:12.248Z - info: User function triggered, starting execution
+2018-04-25T19:24:12.267Z - info: Execution took 19 ms, user function completed successfully
+2018-04-25T19:24:44.753Z - info: User function triggered, starting execution
+2018-04-25T19:24:44.760Z - info: Execution took 6 ms, user function completed successfully
+2018-04-25T19:24:44.766Z - info: User function triggered, starting execution
+2018-04-25T19:24:44.769Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T19:25:24.766Z - info: Worker for app closed due to file changes.
+2018-04-25T19:26:18.911Z - info: User function triggered, starting execution
+2018-04-25T19:26:18.917Z - info: Execution took 6 ms, user function completed successfully
+2018-04-25T19:26:24.634Z - info: User function triggered, starting execution
+2018-04-25T19:26:24.635Z - info: Execution took 1 ms, user function completed successfully
+2018-04-25T19:26:29.031Z - info: User function triggered, starting execution
+2018-04-25T19:26:29.032Z - info: Execution took 1 ms, user function completed successfully
+2018-04-25T19:26:37.642Z - info: User function triggered, starting execution
+2018-04-25T19:26:37.657Z - info: Execution took 14 ms, user function completed successfully
+2018-04-25T19:26:41.413Z - info: User function triggered, starting execution
+2018-04-25T19:26:41.414Z - info: Execution took 0 ms, user function completed successfully
+2018-04-25T19:27:16.766Z - info: Worker for app closed due to file changes.
+2018-04-25T19:27:33.439Z - info: User function triggered, starting execution
+2018-04-25T19:27:33.457Z - info: Execution took 17 ms, user function completed successfully
+2018-04-25T19:27:44.120Z - info: Worker for app closed due to file changes.
+2018-04-25T19:28:02.351Z - info: User function triggered, starting execution
+2018-04-25T19:28:02.370Z - info: Execution took 19 ms, user function completed successfully
+2018-04-25T19:28:29.028Z - info: User function triggered, starting execution
+2018-04-25T19:28:29.037Z - info: Execution took 9 ms, user function completed successfully
+2018-04-25T19:28:29.044Z - info: User function triggered, starting execution
+2018-04-25T19:28:29.049Z - info: Execution took 4 ms, user function completed successfully
+2018-04-25T19:30:22.850Z - info: Worker for app closed due to file changes.
+2018-04-25T19:30:22.851Z - info: Worker for app closed due to file changes.
+2018-04-25T19:30:44.929Z - info: User function triggered, starting execution
+2018-04-25T19:30:44.947Z - info: Execution took 17 ms, user function completed successfully
+2018-04-25T19:31:05.293Z - info: User function triggered, starting execution
+2018-04-25T19:31:05.302Z - info: Execution took 8 ms, user function completed successfully
+2018-04-25T19:31:05.310Z - info: User function triggered, starting execution
+2018-04-25T19:31:05.314Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T19:31:24.215Z - info: Worker for app closed due to file changes.
