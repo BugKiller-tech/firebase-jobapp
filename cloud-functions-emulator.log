@@ -226,3 +226,92 @@ SyntaxError: Unexpected token .
 2018-04-25T19:31:05.310Z - info: User function triggered, starting execution
 2018-04-25T19:31:05.314Z - info: Execution took 3 ms, user function completed successfully
 2018-04-25T19:31:24.215Z - info: Worker for app closed due to file changes.
+2018-04-25T19:47:19.153Z - info: User function triggered, starting execution
+2018-04-25T19:47:19.170Z - info: Execution took 17 ms, user function completed successfully
+2018-04-25T19:47:23.765Z - info: User function triggered, starting execution
+2018-04-25T19:47:23.768Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T19:47:25.638Z - info: User function triggered, starting execution
+2018-04-25T19:47:25.641Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T19:47:26.670Z - info: User function triggered, starting execution
+2018-04-25T19:47:26.672Z - info: Execution took 1 ms, user function completed successfully
+2018-04-25T19:47:28.787Z - info: User function triggered, starting execution
+2018-04-25T19:47:28.791Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T19:47:32.872Z - info: User function triggered, starting execution
+2018-04-25T19:47:32.875Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T19:47:34.454Z - info: User function triggered, starting execution
+2018-04-25T19:47:34.457Z - info: Execution took 2 ms, user function completed successfully
+2018-04-25T19:48:03.473Z - info: User function triggered, starting execution
+2018-04-25T19:48:03.479Z - info: Execution took 5 ms, user function completed successfully
+2018-04-25T19:48:03.479Z - error: ReferenceError: req is not defined
+    at app.post (/Users/josh/TsunamiBlock/functions/index.js:41:17)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/josh/TsunamiBlock/functions/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+2018-04-25T19:48:22.611Z - info: Worker for app closed due to file changes.
+2018-04-25T19:48:22.660Z - error: Function worker killed by signal: SIGTERM
+2018-04-25T19:48:34.577Z - info: User function triggered, starting execution
+2018-04-25T19:48:34.595Z - info: Execution took 18 ms, user function completed successfully
+2018-04-25T19:48:48.457Z - info: User function triggered, starting execution
+2018-04-25T19:48:48.466Z - info: Execution took 8 ms, user function completed successfully
+2018-04-25T19:48:48.467Z - error: ReferenceError: req is not defined
+    at app.post (/Users/josh/TsunamiBlock/functions/index.js:45:12)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/josh/TsunamiBlock/functions/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+2018-04-25T19:48:57.036Z - error: Function worker killed by signal: SIGTERM
+2018-04-25T19:50:33.356Z - info: User function triggered, starting execution
+2018-04-25T19:50:33.374Z - info: Execution took 17 ms, user function completed successfully
+2018-04-25T19:50:51.433Z - info: User function triggered, starting execution
+2018-04-25T19:50:53.460Z - info: Execution took 2027 ms, user function completed successfully
+2018-04-25T19:50:53.468Z - info: User function triggered, starting execution
+2018-04-25T19:50:53.471Z - info: Execution took 3 ms, user function completed successfully
+2018-04-25T21:01:33.801Z - info: User function triggered, starting execution
+2018-04-25T21:01:33.806Z - info: Execution took 5 ms, user function completed successfully
+2018-04-25T21:01:33.807Z - error: ReferenceError: ref is not defined
+    at getPosts (/Users/josh/TsunamiBlock/functions/index.js:22:3)
+    at app.get (/Users/josh/TsunamiBlock/functions/index.js:26:3)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/josh/TsunamiBlock/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/josh/TsunamiBlock/functions/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+2018-04-25T21:05:52.662Z - info: Worker for app closed due to file changes.
+2018-04-25T21:05:52.685Z - error: Function worker killed by signal: SIGTERM
+2018-04-25T21:06:10.267Z - info: User function triggered, starting execution
+2018-04-25T21:06:10.333Z - error: (node:1886) UnhandledPromiseRejectionWarning: ReferenceError: reponse is not defined
+    at getPosts.then.posts (/Users/josh/TsunamiBlock/functions/index.js:27:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2018-04-25T21:06:10.334Z - error: (node:1886) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:1886) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-04-25T21:06:19.243Z - info: User function triggered, starting execution
+2018-04-25T21:06:19.297Z - error: (node:1886) UnhandledPromiseRejectionWarning: ReferenceError: reponse is not defined
+    at getPosts.then.posts (/Users/josh/TsunamiBlock/functions/index.js:27:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2018-04-25T21:06:19.297Z - error: (node:1886) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+2018-04-25T21:06:55.990Z - info: Execution took 36749 ms, finished with status: 'crash'
+2018-04-25T21:06:55.991Z - info: Execution took 45731 ms, finished with status: 'crash'
+2018-04-25T21:06:56.012Z - error: Function worker killed by signal: SIGTERM
+2018-04-25T21:07:08.785Z - info: User function triggered, starting execution
+2018-04-25T21:07:09.615Z - info: Execution took 831 ms, user function completed successfully
+2018-04-25T21:09:45.808Z - info: Worker for app closed due to file changes.
+2018-04-25T21:11:25.299Z - info: User function triggered, starting execution
+2018-04-25T21:11:25.882Z - info: Execution took 584 ms, user function completed successfully
+2018-04-25T21:14:50.133Z - info: User function triggered, starting execution
+2018-04-25T21:14:50.213Z - info: Execution took 80 ms, user function completed successfully

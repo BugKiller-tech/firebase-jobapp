@@ -1,6 +1,7 @@
 const functions = require('firebase-functions');
 const firebase = require('firebase-admin');
 const express = require('express');
+const stripe = require("stripe")("sk_test_IOqUUmheBCzexCbNcCnHmPNQ");
 
 const firebaseApp = firebase.initializeApp(
   functions.config().firebase
@@ -16,8 +17,16 @@ const handlebars = require("express-handlebars").create({ defaultLayout: 'main'}
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 
+function getPosts () {
+  const ref = firebaseApp.database().ref();
+  return ref.once('value').then(snap => snap.val())
+};
+
 app.get('/', (request,response) => {
-  response.render('home');
+  getPosts().then(posts => {
+    response.render('home', {posts})
+  })
+  //response.render('home');
 })
 
 app.get('/jobpost', (request, response) => {
@@ -38,11 +47,31 @@ app.post('/formSubmission', (request, response) => {
     stoken: request.body.stripeToken
 
   })
+  const token = request.body.stripeToken; // Using Express
 
-  response.redirect(303, '303');
+
+  stripe.customers.create({
+    email: request.body.stripeEmail,
+    source: token
+  })
+  .then(customer => stripe.charges.create({
+    amount: 2500,
+    description: 'Example charge',
+    currency: 'usd',
+    customer: customer.id
+  }))
+  .then(charge => response.redirect(303, '303'))
+  .catch(err => {
+    response.status(400).json({ errors: JSON.stringify(err) })
+  })
+
 })
 
 exports.app = functions.https.onRequest(app);
+
+
+
+
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions

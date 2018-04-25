@@ -3,66 +3,30 @@
         <!--<a id="postlink" href="jobpost.html"><button class="btn">Post a Job<i class="fa fa-pencil ml-2"></i></button></a> -->
       <a href="/jobPost">  <button class="btn">Post a Job<i class = "fa fa-pencil ml-2"></i></button></a>
   </div>
-
+  {{#each posts}}
   <div class="list-group">
     <div class="list-group-item list-group-item-action flex-column align-items-start" id="job-1">
       <div class="d-flex w-100 justify-content-between">
-        <a href="https://www.coinbase.com/careers/1082003" class="joblink"><h5 class="mb-1">Engineering Manager - Asset Management</h5></a>
+        <a href="https://www.coinbase.com/careers/1082003" class="joblink"><h5 class="mb-1">{{this.jobPosition}}</h5></a>
         <small>3 days ago</small>
       </div>
       <div class="d-flex w-100 justify-content-between">
-      <small>Coinbase</small>
+      <small>{{this.company}}</small>
       <small>San Francisco, CA</small>
     </div>
 </div>
 
+
 <div class="detailsbox"  id="detail-1">
 <div class="list-group-item list-group-item-action flex-column align-items-start">
 <div class="d-flex w-100 justify-content-between">
-<small>As the Engineering Manager of the Asset Management team you will work directly with the product and leadership team to build this product from the ground up. You’ll grow and lead a team that builds products that combine index investment and fund management to deliver a seamless investment experience to our clients.  You’ll also work with our security and risk engineering teams to build trust and safety features to protect user accounts, without compromising on the user experience.</small>
+<small>{{this.jobDescription}}</small>
 </div>
 </div>
 </div>
     <br>
-    <div class="list-group-item list-group-item-action flex-column align-items-start" id="job-2">
-      <div class="d-flex w-100 justify-content-between">
-        <a href="https://jobs.lever.co/blockstack/598260fd-6574-46ce-9d04-5cdeadc110e4" class="joblink"><h5 class="mb-1">Applied Cryptography Engineer</h5></a>
-        <small>3 days ago</small>
-      </div>
-      <div class="d-flex w-100 justify-content-between">
-      <small>Blockstack</small>
-      <small>New York, NY or Remote</small>
-    </div>
-</div>
-
-<div class="detailsbox"  id="detail-2">
-<div class="list-group-item list-group-item-action flex-column align-items-start">
-<div class="d-flex w-100 justify-content-between">
-<small>Blockstack is looking for a passionate and experienced engineer with a strong background in applied cryptography. This person will work with a team of distributed systems experts to implement a new blockchain architecture for Blockstack apps, decreasing transaction time and cost for the Blockstack ecosystem, while enabling new functionality. This role is ideal for engineers who are experts in developing cryptographic protocols, familiar with blockchains, and keen to build a clean-slate system from the ground up.</small>
-</div>
-</div>
-</div>
-    <br>
-    <div class="list-group-item list-group-item-action flex-column align-items-start" id="job-3">
-      <div class="d-flex w-100 justify-content-between">
-        <a href="https://jobs.lever.co/stellar/110cf8db-eb1d-4ca2-bf80-3518a9aaaff8" class="joblink"><h5 class="mb-1">Senior Core Engineer</h5></a>
-        <small>3 days ago</small>
-      </div>
-      <div class="d-flex w-100 justify-content-between">
-      <small>Stellar</small>
-      <small>San Francisco</small>
-    </div>
-</div>
-
-<div class="detailsbox"  id="detail-3">
-<div class="list-group-item list-group-item-action flex-column align-items-start">
-<div class="d-flex w-100 justify-content-between">
-<small>Interested in helping us change the world of payments forever? Stellar is looking for a talented, experienced, and hands-on core engineer to join our team. In this role you’ll be designing, building, and implementing the core systems behind a disruptive blockchain solution for cross-border payments on a global scale.</small>
-</div>
-</div>
-</div>
-    <br>
-  </div>
+    
+{{/each}}
 
 
 
