@@ -37,6 +37,10 @@ app.get('/303', (request, response) => {
   response.render('303')
 })
 
+app.get('/400', (request, response) => {
+  response.render('400')
+})
+
 app.post('/formSubmission', (request, response) => {
   firebaseApp.database().ref(request.body.username).set({
     company: request.body.companyName,
@@ -61,9 +65,10 @@ app.post('/formSubmission', (request, response) => {
     customer: customer.id
   }))
   .then(charge => response.redirect(303, '303'))
-  .catch(err => {
-    response.status(400).json({ errors: JSON.stringify(err) })
-  })
+  .catch(err => response.redirect(400,'404'))
+  //.catch(err => {
+  //  response.status(400).json({ errors: JSON.stringify(err) })
+  //})
 
 })
 
