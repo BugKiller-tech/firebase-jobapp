@@ -2,6 +2,7 @@ const functions = require('firebase-functions');
 const firebase = require('firebase-admin');
 const express = require('express');
 const stripe = require("stripe")("sk_test_IOqUUmheBCzexCbNcCnHmPNQ");
+const moment = require("moment");
 
 const firebaseApp = firebase.initializeApp(
   functions.config().firebase
@@ -49,7 +50,7 @@ app.post('/formSubmission', (request, response) => {
     jobDescription: request.body.jobDescription,
     jobSalary: request.body.jobSalary,
     jobUrl: request.body.jobUrl,
-    postDate: Date.now(),
+    postDate: moment().format("MMM Do YY"),
     stoken: request.body.stripeToken
 
   })
@@ -61,7 +62,7 @@ app.post('/formSubmission', (request, response) => {
     source: token
   })
   .then(customer => stripe.charges.create({
-    amount: 2500,
+    amount: 20000,
     description: 'Example charge',
     currency: 'usd',
     customer: customer.id
