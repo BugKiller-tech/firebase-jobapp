@@ -47,7 +47,9 @@ app.post('/formSubmission', (request, response) => {
     email: request.body.email,
     jobPosition: request.body.jobPosition,
     jobDescription: request.body.jobDescription,
+    jobSalary: request.body.jobSalary,
     jobUrl: request.body.jobUrl,
+    postDate: Date.now(),
     stoken: request.body.stripeToken
 
   })
@@ -62,10 +64,10 @@ app.post('/formSubmission', (request, response) => {
     amount: 2500,
     description: 'Example charge',
     currency: 'usd',
-    customer: request.body.username
+    customer: customer.id
   }))
-  .then(charge => response.redirect(303, '303'))
-  .catch(err => response.redirect(400,'404'))
+  .then(charge => {response.redirect(303, '303')})
+  .catch(err => {response.redirect(400,'400')})
   //.catch(err => {
   //  response.status(400).json({ errors: JSON.stringify(err) })
   //})
