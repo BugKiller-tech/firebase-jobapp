@@ -333,3 +333,115 @@ SyntaxError: Unexpected token .
 2018-04-25T21:20:21.260Z - info: Execution took 2 ms, user function completed successfully
 2018-04-25T21:20:23.720Z - info: User function triggered, starting execution
 2018-04-25T21:20:23.773Z - info: Execution took 52 ms, user function completed successfully
+2018-04-26T02:39:52.702Z - info: User function triggered, starting execution
+2018-04-26T02:39:52.816Z - info: Execution took 115 ms, user function completed successfully
+2018-04-26T02:39:53.324Z - info: User function triggered, starting execution
+2018-04-26T02:39:53.326Z - info: Execution took 3 ms, user function completed successfully
+2018-04-26T02:39:53.736Z - info: User function triggered, starting execution
+2018-04-26T02:39:53.738Z - info: Execution took 1 ms, user function completed successfully
+2018-04-26T02:39:53.750Z - info: User function triggered, starting execution
+2018-04-26T02:39:53.751Z - info: Execution took 0 ms, user function completed successfully
+2018-04-26T02:40:03.302Z - info: User function triggered, starting execution
+2018-04-26T02:40:03.404Z - info: Execution took 101 ms, user function completed successfully
+2018-04-26T02:40:06.247Z - info: User function triggered, starting execution
+2018-04-26T02:40:06.250Z - info: Execution took 3 ms, user function completed successfully
+2018-04-26T02:41:23.319Z - info: User function triggered, starting execution
+2018-04-26T02:41:23.322Z - info: Execution took 2 ms, user function completed successfully
+2018-04-26T02:41:25.303Z - info: User function triggered, starting execution
+2018-04-26T02:41:25.304Z - info: Execution took 0 ms, user function completed successfully
+2018-04-26T02:41:28.411Z - info: User function triggered, starting execution
+2018-04-26T02:41:28.413Z - info: Execution took 1 ms, user function completed successfully
+2018-04-26T02:41:28.907Z - info: User function triggered, starting execution
+2018-04-26T02:41:28.966Z - info: Execution took 58 ms, user function completed successfully
+2018-04-26T02:41:30.391Z - info: User function triggered, starting execution
+2018-04-26T02:41:30.394Z - info: Execution took 2 ms, user function completed successfully
+2018-04-26T02:41:43.431Z - info: User function triggered, starting execution
+2018-04-26T02:41:43.433Z - info: Execution took 2 ms, user function completed successfully
+2018-04-26T02:41:44.066Z - info: User function triggered, starting execution
+2018-04-26T02:41:44.133Z - info: Execution took 67 ms, user function completed successfully
+2018-04-26T02:41:44.928Z - info: User function triggered, starting execution
+2018-04-26T02:41:44.928Z - info: Execution took 1 ms, user function completed successfully
+2018-04-26T02:41:57.527Z - info: User function triggered, starting execution
+2018-04-26T02:41:57.527Z - info: Execution took 1 ms, user function completed successfully
+2018-04-26T02:41:58.209Z - info: User function triggered, starting execution
+2018-04-26T02:41:58.213Z - info: Execution took 3 ms, user function completed successfully
+2018-04-26T03:04:00.362Z - info: User function triggered, starting execution
+2018-04-26T03:04:00.389Z - info: Execution took 27 ms, user function completed successfully
+2018-04-26T03:04:03.307Z - info: User function triggered, starting execution
+2018-04-26T03:04:03.368Z - info: Execution took 60 ms, user function completed successfully
+2018-04-26T03:05:16.266Z - info: User function triggered, starting execution
+2018-04-26T03:05:16.315Z - info: Execution took 48 ms, user function completed successfully
+2018-04-26T03:05:16.950Z - info: User function triggered, starting execution
+2018-04-26T03:05:16.953Z - info: Execution took 2 ms, user function completed successfully
+2018-04-26T03:05:17.783Z - info: User function triggered, starting execution
+2018-04-26T03:05:17.785Z - info: Execution took 2 ms, user function completed successfully
+2018-05-03T20:14:47.350Z - info: User function triggered, starting execution
+2018-05-03T20:14:47.436Z - info: Execution took 85 ms, user function completed successfully
+2018-05-03T20:14:54.674Z - info: User function triggered, starting execution
+2018-05-03T20:14:54.719Z - info: Execution took 44 ms, user function completed successfully
+2018-05-03T20:14:56.686Z - info: User function triggered, starting execution
+2018-05-03T20:14:56.736Z - info: Execution took 49 ms, user function completed successfully
+2018-05-03T20:14:58.671Z - info: User function triggered, starting execution
+2018-05-03T20:14:58.718Z - info: Execution took 48 ms, user function completed successfully
+2018-05-03T20:43:29.485Z - error: restPort (5002) is already in use
+2018-05-03T20:43:29.486Z - error: SUPERVISOR error Error: listen EADDRINUSE 127.0.0.1:5001
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1517:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:97:10)
+2018-05-03T20:43:29.487Z - error: supervisorPort (5001) is already in use
+2018-05-03T20:44:32.447Z - info: User function triggered, starting execution
+2018-05-03T20:44:32.526Z - info: Execution took 79 ms, user function completed successfully
+2018-05-03T20:44:32.550Z - info: User function triggered, starting execution
+2018-05-03T20:44:32.555Z - info: Execution took 3 ms, user function completed successfully
+2018-05-03T20:45:19.438Z - info: Worker for app closed due to file changes.
+2018-05-03T20:45:44.925Z - info: User function triggered, starting execution
+2018-05-03T20:45:45.004Z - info: Execution took 79 ms, user function completed successfully
+2018-05-03T20:46:38.159Z - info: Worker for app closed due to file changes.
+2018-05-03T20:46:55.576Z - info: User function triggered, starting execution
+2018-05-03T20:46:55.677Z - info: Execution took 102 ms, user function completed successfully
+2018-05-03T20:47:37.761Z - info: Worker for app closed due to file changes.
+2018-05-03T20:47:51.016Z - info: User function triggered, starting execution
+2018-05-03T20:47:51.589Z - info: Execution took 574 ms, user function completed successfully
+2018-05-03T20:48:41.275Z - info: Worker for app closed due to file changes.
+2018-05-03T20:48:57.363Z - info: User function triggered, starting execution
+2018-05-03T20:48:57.611Z - info: Execution took 248 ms, user function completed successfully
+2018-05-03T20:49:29.071Z - info: User function triggered, starting execution
+2018-05-03T20:49:29.154Z - info: Execution took 84 ms, user function completed successfully
+2018-05-03T20:50:08.423Z - info: Worker for app closed due to file changes.
+2018-05-03T20:50:19.542Z - info: User function triggered, starting execution
+2018-05-03T20:50:20.485Z - info: Execution took 944 ms, user function completed successfully
+2018-05-03T20:50:30.375Z - info: User function triggered, starting execution
+2018-05-03T20:50:30.426Z - info: Execution took 49 ms, user function completed successfully
+2018-05-03T20:53:38.942Z - info: Worker for app closed due to file changes.
+2018-05-03T20:54:37.147Z - info: User function triggered, starting execution
+2018-05-03T20:54:37.674Z - info: Execution took 527 ms, user function completed successfully
+2018-05-03T20:54:43.894Z - info: User function triggered, starting execution
+2018-05-03T20:54:43.924Z - info: Execution took 27 ms, user function completed successfully
+2018-05-03T20:54:49.568Z - info: User function triggered, starting execution
+2018-05-03T20:54:49.629Z - info: Execution took 60 ms, user function completed successfully
+2018-05-03T20:54:50.680Z - info: User function triggered, starting execution
+2018-05-03T20:54:50.683Z - info: Execution took 2 ms, user function completed successfully
+2018-05-03T20:54:50.933Z - info: User function triggered, starting execution
+2018-05-03T20:54:50.938Z - info: Execution took 4 ms, user function completed successfully
+2018-05-03T20:54:57.711Z - info: User function triggered, starting execution
+2018-05-03T20:54:57.787Z - info: Execution took 75 ms, user function completed successfully
+2018-05-03T20:55:07.025Z - info: Worker for app closed due to file changes.
+2018-05-03T20:55:07.026Z - info: Worker for app closed due to file changes.
+2018-05-03T21:01:16.464Z - info: User function triggered, starting execution
+2018-05-03T21:01:16.546Z - info: Execution took 80 ms, user function completed successfully
+2018-05-03T21:12:47.188Z - info: User function triggered, starting execution
+2018-05-03T21:12:47.282Z - info: Execution took 93 ms, user function completed successfully
+2018-05-03T21:12:59.526Z - info: User function triggered, starting execution
+2018-05-03T21:12:59.582Z - info: Execution took 55 ms, user function completed successfully
+2018-05-03T21:14:08.804Z - info: Worker for app closed due to file changes.
+2018-05-03T21:16:00.548Z - info: User function triggered, starting execution
+2018-05-03T21:16:00.969Z - info: Execution took 422 ms, user function completed successfully
+2018-05-03T21:17:25.502Z - info: User function triggered, starting execution
+2018-05-03T21:17:25.743Z - info: Execution took 241 ms, user function completed successfully
+2018-05-03T21:17:26.164Z - info: User function triggered, starting execution
+2018-05-03T21:17:26.169Z - info: Execution took 4 ms, user function completed successfully
+2018-05-03T21:17:35.171Z - info: User function triggered, starting execution
+2018-05-03T21:17:35.217Z - info: Execution took 46 ms, user function completed successfully

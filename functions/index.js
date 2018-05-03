@@ -55,14 +55,14 @@ app.post('/formSubmission', (request, response) => {
 
 
   stripe.customers.create({
-    email: request.body.stripeEmail,
+    email: request.body.email,
     source: token
   })
   .then(customer => stripe.charges.create({
     amount: 2500,
     description: 'Example charge',
     currency: 'usd',
-    customer: customer.id
+    customer: request.body.username
   }))
   .then(charge => response.redirect(303, '303'))
   .catch(err => response.redirect(400,'404'))
